@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 600px; /* Adjust based on your design */
+    margin-bottom: 10px; /* Space between images */
+}
+
+.image-container img:last-child {
+    margin-bottom: 0; /* Remove margin for the last image */
+}
